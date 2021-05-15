@@ -2,7 +2,7 @@ Flask==1.1.2
 gunicorn==20.1.0
 numpy==1.19.5
 pandas==1.1.5
-tensorflow==2.5.1
+tensorflow
 tensorflow-hub==0.12.0
 nltk==3.6.2
 
