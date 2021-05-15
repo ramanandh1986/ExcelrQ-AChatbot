@@ -1,5 +1,0 @@
-numpy
-pandas
-flask
-tensorflow
-tensorflow-hub
