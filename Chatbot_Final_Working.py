@@ -18,7 +18,7 @@ import tensorflow_hub as hub
 # In[11]:
 
 
-dataset = pd.read_excel(r'C:/Users/rayad/Downloads/Chatbot_Dep/Chatbot.xlsx', engine='openpyxl')
+dataset = pd.read_excel(r'Chatbot.xlsx', engine='openpyxl')
 
 
 # In[12]:
