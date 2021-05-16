@@ -9,7 +9,7 @@ import tensorflow_hub as hub
     
 app = Flask(__name__)
 
-dataset = pd.read_excel(r'C:/Users/rayad/Downloads/Chatbot_Dep/Chatbot.xlsx', engine='openpyxl')
+dataset = pd.read_excel(r'Chatbot.xlsx', engine='openpyxl')
 
 module_url = "https://tfhub.dev/google/universal-sentence-encoder/4"
 model = hub.load(module_url)
