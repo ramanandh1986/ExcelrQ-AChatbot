@@ -8,6 +8,8 @@ import tensorflow_hub as hub
  
     
 app = Flask(__name__)
+app = dash.Dash()
+server = app.server
 
 dataset = pd.read_excel(r'Chatbot.xlsx', engine='openpyxl')
 
